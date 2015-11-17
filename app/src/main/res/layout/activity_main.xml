@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <com.aniu.myapplication.EyeBackground
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <!--<com.aniu.myapplication.RoundViewGroup-->
+    <!--android:id="@+id/view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn0" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn1" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn2" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn3" />-->
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn4" />-->
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="btn5" />-->
+
+    <!--</com.aniu.myapplication.RoundViewGroup>-->
+
+    <com.aniu.myapplication.RoundViewGroup
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.aniu.myapplication.MyView
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </com.aniu.myapplication.RoundViewGroup>
+
+</RelativeLayout>
