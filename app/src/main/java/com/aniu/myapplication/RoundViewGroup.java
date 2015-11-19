@@ -120,7 +120,7 @@ public class RoundViewGroup extends ViewGroup {
             int X = (int) (Cx + 150 * Math.cos(a-d));
             Y = Y - cHeight / 2;
             X = X - cWidth / 2;
-            Log.e(TAG, "Y : " + Y+" X : " + X);
+            Log.d(TAG, "Y : " + Y+" X : " + X);
 
             childView.layout(X, Y, X + cWidth, Y + cHeight);
             ObjectAnimator.ofFloat(childView, "rotation",(float)Math.toDegrees(a-d-c)).setDuration(0).start();
